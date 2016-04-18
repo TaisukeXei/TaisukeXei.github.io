@@ -84,7 +84,7 @@ article {
   padding: 10px;
   position: absolute;
   left: -5.2%;
-  bottom: -20%;
+  bottom: -24.8%;
   color: #fff;
   text-align: center;
   
@@ -156,7 +156,7 @@ input[type=search]:focus{
 video {
   position: absolute;
   right: 10.8%;
-  bottom: -17.3%;
+  bottom: -22%;
   max-width: 330px;
 }
 /*Seperation*/
