@@ -8,10 +8,10 @@ body {
 /*Seperation/Images*/
 /*Style for image parallax*/
 #image-1 {
-  background-image: url(images/global.gif);
+  background-image: url(images/binaryb.jpg);
   background-attachment: fixed;
   background-size: cover;
-  background-position: center center;
+  background-position: center;
   height: 600px;
   width: 100.5%;
 }

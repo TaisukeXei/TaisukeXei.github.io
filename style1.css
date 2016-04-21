@@ -1,0 +1,177 @@
+body {
+    background-color: #ccc;
+    background:url(images/technology.jpg);
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+}
+/*Seperation/Images*/
+/*Style for image parallax*/
+#image-1 {
+  background-image: url(images/binaryg.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+  width: 100.5%;
+}
+/*Seperation/.container*/
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+/*Seperation/Header*/
+header {
+    padding: 20px;
+    background-color: #ccc;
+    background: url(images/gears.jpg);
+    background-size: cover;
+    font-family: Arial;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    color: #fff;
+    border: solid;
+    border-color: #fff;
+}
+/*Seperation/Nav*/
+/* Remove margins and padding from the list, and add a black background color */
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #3F4045;
+}
+
+/* Float the list items side by side */
+ul.topnav li {float: right;}
+
+/* Style the links inside the list items */
+ul.topnav li a {
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of links on hover */
+ul.topnav li a:hover {background-color: #111;}
+
+/* Hide the list item that contains the link that should open and close the topnav on small screens */
+ul.topnav li.icon {display: none;}
+
+.input[type=text] {
+    width: 130px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+/*Seperation*/
+main {
+    padding: 300px;
+    border: solid;
+    background: url(images/geek.jpg);
+    background-size:cover;  
+    background-position: center;
+}
+/*Seperation*/
+article {
+  width: 48%; /* margin of 1% on both sides means that each can only be 48% wide */
+  margin: 1%;
+  padding: 10px;
+  position: absolute;
+  left: -5.2%;
+  bottom: -50.5%;
+  color: #fff;
+  text-align: center;
+  
+}
+/*Seperation*/
+article img {
+  max-width: 40%;
+}
+/*Seperation*/
+/** LIGHTBOX MARKUP **/
+.lightbox {
+  /** Default lightbox to hidden */
+  display: none;
+
+  /** Position and style */
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  top: 0;
+  left: 0;
+  background: rgba(0,0,0,0.8);
+}
+
+.lightbox img {
+  /** Pad the lightbox image */
+  max-width: 90%;
+  max-height: 80%;
+  margin-top: 2%;
+}
+
+.lightbox:target {
+  /** Remove default browser outline */
+  outline: none;
+
+  /** Unhide lightbox **/
+  display: block;
+}
+
+input{
+  font-size: 12px;
+  font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+input[type=search] {
+  -webkit-appearance: textfield;
+  -webkit-box-sizing: content-box;
+  background: #ededed url(http://webdesignerwall.com/demo/expandable-search-form/images/search-icon.png) no-repeat 9px center;
+  border:solid 1px #ccc;
+  padding:9px 10px 9px 32px;
+  width:55px;
+  -webkit-border-radius:10em;
+  -mox-border-radius:10em;
+  border-radius:10em;
+  -webkit-transition: all .5s;
+  -moz-transition: all .5s;
+  transition: all .5s;
+}
+input[type=search]:focus{
+  width:130px;
+  outline:0;
+  background-color:#fff;
+  border-color:#6dcff6;
+  -webkit-box-shadow:0 0 5px rgba(109,207,246,.5);
+  -moz-box-shadow:0 0 5px rgba(109,207,246,.5);
+  box-shadow:0 0 5px rgba(109,207,246,.5);
+}
+/*Seperation*/
+video {
+  position: absolute;
+  right: 10.8%;
+  bottom: -47.5%;
+  max-width: 330px;
+}
+/*Seperation*/
+footer {
+    padding: 20px;
+    background-color: #ccc;
+    background: url(images/gears.jpg);
+    background-size: cover;
+    font-family: Arial;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    color: #fff;
+    border: solid;
+    border-color: #fff;    
+}

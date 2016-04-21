@@ -5,9 +5,9 @@ body, html {
 }
 /*Image Home Page elements*/
 body {
-	font-family: Arial, Impact;
-	/*for text style*/
-	background-image: url(images/giphy.gif);
+	  font-family: Arial, Impact;
+	  /*for text style*/
+	  background-image: url(images/start.jpg);
 	  /*for background image*/
 	  background-position: center;
 	  /*centers the background*/
