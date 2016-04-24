@@ -27,7 +27,7 @@ body {
 header {
     padding: 20px;
     background-color: #ccc;
-    background: url(images/gears.jpg);
+    background: url(images/gearsg.jpg);
     background-size: cover;
     font-family: Arial;
     font-size: 30px;
@@ -37,6 +37,7 @@ header {
     color: #fff;
     border: solid;
     border-color: #fff;
+    max-width: 870px;
 }
 /*Seperation/Nav*/
 /* Remove margins and padding from the list, and add a black background color */
@@ -46,10 +47,11 @@ ul.topnav {
     padding: 0;
     overflow: hidden;
     background-color: #3F4045;
+    max-width: 918px;
 }
 
 /* Float the list items side by side */
-ul.topnav li {float: right;}
+ul.topnav li {float: left;}
 
 /* Style the links inside the list items */
 ul.topnav li a {
@@ -75,18 +77,16 @@ ul.topnav li.icon {display: none;}
 }
 /*Seperation*/
 main {
-    padding: 430px;
+    padding: 435px;
     border: solid;
     border-color: #fff;
-    background: url(images/circuits.jpg);
-    background-size:cover;
-    max-width: 40px;
+    max-width: 42px;
 }
 /*Seperation*/
 footer {
-    padding: 25px;
+    padding: 18px;
     background-color: #ccc;
-    background: url(images/gears.jpg);
+    background: url(images/gearsg.jpg);
     background-size: cover;
     font-family: Arial;
     font-size: 30px;

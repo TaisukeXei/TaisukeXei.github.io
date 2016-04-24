@@ -24,7 +24,7 @@ body {
 header {
     padding: 20px;
     background-color: #ccc;
-    background: url(images/gears.jpg);
+    background: url(images/gearsg.jpg);
     background-size: cover;
     font-family: Arial;
     font-size: 30px;
@@ -177,7 +177,7 @@ input[type=search]:focus{
 footer {
     padding: 20px;
     background-color: #ccc;
-    background: url(images/gears.jpg);
+    background: url(images/gearsg.jpg);
     background-size: cover;
     font-family: Arial;
     font-size: 30px;
