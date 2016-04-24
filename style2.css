@@ -1,6 +1,6 @@
 body {
     background-color: #ccc;
-    background:url(images/technology.jpg);
+    background:url(images/technologyr.jpg);
    -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
@@ -75,7 +75,7 @@ main {
     padding: 300px;
     border: solid;
     border-color: #fff;
-    background: url(images/circuits.jpg);
+    background: url(images/map.jpg);
     background-size:cover;  
 }
 /*Seperation*/
@@ -84,6 +84,7 @@ article {
   margin: 1%;
   padding: 10px;
   position: absolute;
+  color: #fff;
 }
 /*Seperation*/
 footer {
