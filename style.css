@@ -157,9 +157,19 @@ input[type=search]:focus{
 /*Seperation*/
 .intro {
   position: absolute;
-  right: 30%;
-  top: 96%;
+  right: 10.5%;
+  top: 98.5%;
   max-width: 330px;
+  color: #fff;
+  text-align: center;
+}
+/*Seperation*/
+.youtube {
+  position: absolute;
+  top: -117.5%;
+  left: 30.5%;
+  color: #fff;
+  text-align: center;
 }
 /*Seperation*/
 footer {
