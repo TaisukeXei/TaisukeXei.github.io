@@ -89,7 +89,6 @@ article {
   bottom: -24.5%;
   color: #fff;
   text-align: center;
-  
 }
 /*Seperation*/
 article img {
@@ -100,7 +99,6 @@ article img {
 .lightbox {
   /** Default lightbox to hidden */
   display: none;
-
   /** Position and style */
   position: fixed;
   z-index: 999;
@@ -166,10 +164,12 @@ input[type=search]:focus{
 /*Seperation*/
 .youtube {
   position: absolute;
-  top: -117.5%;
-  left: 30.5%;
+  top: -113%;
+  left: 29.8%;
   color: #fff;
   text-align: center;
+  border: solid;
+  border-color: #fff;
 }
 /*Seperation*/
 footer {
