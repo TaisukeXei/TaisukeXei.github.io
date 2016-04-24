@@ -74,6 +74,7 @@ ul.topnav li.icon {display: none;}
 main {
     padding: 300px;
     border: solid;
+    border-color: #fff;
     background: url(images/circuits.jpg);
     background-size:cover;  
 }
@@ -84,7 +85,8 @@ article {
   padding: 10px;
   position: absolute;
   left: -5.2%;
-  bottom: -47.5%;
+  top: 94.3%;
+  bottom: -24.5%;
   color: #fff;
   text-align: center;
   
@@ -153,10 +155,10 @@ input[type=search]:focus{
   box-shadow:0 0 5px rgba(109,207,246,.5);
 }
 /*Seperation*/
-video {
+.intro {
   position: absolute;
-  right: 11%;
-  bottom: -44.5%;
+  right: 30%;
+  top: 96%;
   max-width: 330px;
 }
 /*Seperation*/
