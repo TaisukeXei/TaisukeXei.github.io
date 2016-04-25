@@ -84,6 +84,12 @@ main {
     color: #fff;
 }
 /*Seperation*/
+embed {
+    position: absolute;
+    left: 0.8%;
+    top: 12.5%;
+}
+/*Seperation*/
 footer {
     padding: 18px;
     background-color: #ccc;
