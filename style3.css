@@ -37,7 +37,7 @@ header {
     color: #fff;
     border: solid;
     border-color: #fff;
-    max-width: 870px;
+    max-width: 860px;
 }
 /*Seperation/Nav*/
 /* Remove margins and padding from the list, and add a black background color */
@@ -47,7 +47,7 @@ ul.topnav {
     padding: 0;
     overflow: hidden;
     background-color: #3F4045;
-    max-width: 918px;
+    max-width: 907px;
 }
 
 /* Float the list items side by side */
@@ -77,17 +77,8 @@ ul.topnav li.icon {display: none;}
 }
 /*Seperation*/
 main {
-    padding: 435px;
-    border: solid;
-    border-color: #fff;
-    max-width: 42px;
+    margin: 0 0 0 0;
     color: #fff;
-}
-/*Seperation*/
-embed {
-    position: absolute;
-    left: 0.8%;
-    top: 12.5%;
 }
 /*Seperation*/
 footer {

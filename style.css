@@ -72,27 +72,18 @@ ul.topnav li.icon {display: none;}
 }
 /*Seperation*/
 main {
-    padding: 300px;
-    border: solid;
-    border-color: #fff;
     background: url(images/circuits.jpg);
     background-size:cover;  
 }
 /*Seperation*/
 article {
-  width: 48%; /* margin of 1% on both sides means that each can only be 48% wide */
-  margin: 1%;
-  padding: 10px;
-  position: absolute;
-  left: -5.2%;
-  top: 94.3%;
-  bottom: -24.5%;
+  margin: -2% 0 0 0;
   color: #fff;
   text-align: center;
 }
 /*Seperation*/
 article img {
-  max-width: 40%;
+  max-width: 30%;
 }
 /*Seperation*/
 /** LIGHTBOX MARKUP **/
@@ -153,23 +144,9 @@ input[type=search]:focus{
   box-shadow:0 0 5px rgba(109,207,246,.5);
 }
 /*Seperation*/
-.intro {
-  position: absolute;
-  right: 10.5%;
-  top: 98.5%;
-  max-width: 330px;
-  color: #fff;
-  text-align: center;
-}
-/*Seperation*/
 .youtube {
-  position: absolute;
-  top: -113%;
-  left: 29.8%;
   color: #fff;
   text-align: center;
-  border: solid;
-  border-color: #fff;
 }
 /*Seperation*/
 footer {
